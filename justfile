@@ -10,7 +10,6 @@ build-dist:
     cp -r fonts dist/fonts
     cp -r images dist/images
     cp -r index.html dist/index.html
-    cp -r privacy.html dist/privacy.html
 
 test-dist: build-dist
     miniserve dist --index=index.html
